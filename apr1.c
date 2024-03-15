@@ -6,7 +6,7 @@ int main(void)  {
  	
   char c=65;  	 
 	putchar(c);    
- c+=47;	
+ c+=15;	
      	putchar(c);  	
 	c+=2;  	 
  	putchar(c);
@@ -17,7 +17,7 @@ int main(void)  {
      putchar(32);
   	int	deltas[]={9,0,-3,0};	
     
-   	c=102;  	
+   	c=70;  	
    	for(int	  		 
    	i=0;
   		i<sizeof(deltas)/sizeof(deltas[0]);  

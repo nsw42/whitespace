@@ -10,9 +10,9 @@ Alternatively, there's a long list of interpreters at <https://github.com/wspace
 
 ## Source
 
-The file [apr1.ws](apr1.ws) is, effectively, a "Hello world". However, the obvious way of writing a hello world in Whitespace is to push 72 (`H`) onto the stack, print the character with the ASCII code at the top of stack, then push 101 (`e`), print it, etc. This is what the Wikipedia example does. The code here uses more of the language features (addition, subtraction, multiplication, modulo, storing/retrieving from the heap, and looping), and (I assert) more interesting as a result.
+The file [apr1.ws](apr1.ws) is, effectively, a "Hello world". However, the obvious way of writing a hello world in Whitespace is to push 72 (`H`) onto the stack, print the character with the ASCII code at the top of stack, then push 101 (`e`), print it, etc. This is what the Wikipedia example does. The code here uses more of the language features (addition, subtraction, multiplication, modulo, storing/retrieving from the heap, and looping), and (I assert) is more interesting as a result.
 
-The file [apr1.c](apr1.c) is that same Whitespace source but *also* a valid C program that implements approximately the same operations to print the same message.
+The file [apr1.c](apr1.c) is that same Whitespace source but *also* a valid C program that implements approximately the same operations to print approximately the same message.
 
 ## Screenshot
 
