@@ -14,13 +14,14 @@ The loop label is [space][tab][space]
 ## Script for the video
 
 ```
+export PS1="\[\e[47;34m\]\[\e]2;\a\](\h) \u \$\[\e[0m\] "
 clear;ttyrec
-cd whitespace
-cat apr1.ws
-xxd apr1.ws
-bin/wspace apr1.ws
+more apr1.c
+xxd -g 1 apr1.c | more
+clang -o apr1 apr1.c
+./apr1
+bin/wspace apr1.c
 Ctrl-D to exit recording
-ttygif ttyrecord
+ttygif ttyrecord -f
 ```
-
 
